@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vishw_ged6020\\source\\repos\\WebApplication6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC290A37-FB66-4AD6-9D94-67FB1B4E2CD8}|WebApplication6\\WebApplication6.csproj|c:\\users\\vishw_ged6020\\source\\repos\\webapplication6\\webapplication6\\webapplication6.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CC290A37-FB66-4AD6-9D94-67FB1B4E2CD8}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\webapplication6.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC290A37-FB66-4AD6-9D94-67FB1B4E2CD8}|WebApplication6\\WebApplication6.csproj|c:\\users\\vishw_ged6020\\source\\repos\\webapplication6\\webapplication6\\views\\login\\testdbconnection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC290A37-FB66-4AD6-9D94-67FB1B4E2CD8}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\views\\login\\testdbconnection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC290A37-FB66-4AD6-9D94-67FB1B4E2CD8}|WebApplication6\\WebApplication6.csproj|c:\\users\\vishw_ged6020\\source\\repos\\webapplication6\\webapplication6\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC290A37-FB66-4AD6-9D94-67FB1B4E2CD8}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC290A37-FB66-4AD6-9D94-67FB1B4E2CD8}|WebApplication6\\WebApplication6.csproj|c:\\users\\vishw_ged6020\\source\\repos\\webapplication6\\webapplication6\\views\\employee\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC290A37-FB66-4AD6-9D94-67FB1B4E2CD8}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\views\\employee\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC290A37-FB66-4AD6-9D94-67FB1B4E2CD8}|WebApplication6\\WebApplication6.csproj|c:\\users\\vishw_ged6020\\source\\repos\\webapplication6\\webapplication6\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC290A37-FB66-4AD6-9D94-67FB1B4E2CD8}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC290A37-FB66-4AD6-9D94-67FB1B4E2CD8}|WebApplication6\\WebApplication6.csproj|c:\\users\\vishw_ged6020\\source\\repos\\webapplication6\\webapplication6\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC290A37-FB66-4AD6-9D94-67FB1B4E2CD8}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC290A37-FB66-4AD6-9D94-67FB1B4E2CD8}|WebApplication6\\WebApplication6.csproj|c:\\users\\vishw_ged6020\\source\\repos\\webapplication6\\webapplication6\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC290A37-FB66-4AD6-9D94-67FB1B4E2CD8}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC290A37-FB66-4AD6-9D94-67FB1B4E2CD8}|WebApplication6\\WebApplication6.csproj|c:\\users\\vishw_ged6020\\source\\repos\\webapplication6\\webapplication6\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC290A37-FB66-4AD6-9D94-67FB1B4E2CD8}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC290A37-FB66-4AD6-9D94-67FB1B4E2CD8}|WebApplication6\\WebApplication6.csproj|c:\\users\\vishw_ged6020\\source\\repos\\webapplication6\\webapplication6\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC290A37-FB66-4AD6-9D94-67FB1B4E2CD8}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC290A37-FB66-4AD6-9D94-67FB1B4E2CD8}|WebApplication6\\WebApplication6.csproj|c:\\users\\vishw_ged6020\\source\\repos\\webapplication6\\webapplication6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC290A37-FB66-4AD6-9D94-67FB1B4E2CD8}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC290A37-FB66-4AD6-9D94-67FB1B4E2CD8}|WebApplication6\\WebApplication6.csproj|c:\\users\\vishw_ged6020\\source\\repos\\webapplication6\\webapplication6\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC290A37-FB66-4AD6-9D94-67FB1B4E2CD8}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\vishw_ged6020\\source\\repos\\WebApplication6\\WebApplication6\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\vishw_ged6020\\source\\repos\\WebApplication6\\WebApplication6\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication6\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T19:40:02.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vishw_ged6020\\source\\repos\\WebApplication6\\WebApplication6\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Program.cs",
+              "ToolTip": "C:\\Users\\vishw_ged6020\\source\\repos\\WebApplication6\\WebApplication6\\Program.cs",
+              "RelativeToolTip": "WebApplication6\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T16:56:01.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\vishw_ged6020\\source\\repos\\WebApplication6\\WebApplication6\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\vishw_ged6020\\source\\repos\\WebApplication6\\WebApplication6\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T14:44:41.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\vishw_ged6020\\source\\repos\\WebApplication6\\WebApplication6\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\vishw_ged6020\\source\\repos\\WebApplication6\\WebApplication6\\Models\\UserModel.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T14:44:37.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeModel.cs",
+              "DocumentMoniker": "C:\\Users\\vishw_ged6020\\source\\repos\\WebApplication6\\WebApplication6\\Models\\EmployeeModel.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\EmployeeModel.cs",
+              "ToolTip": "C:\\Users\\vishw_ged6020\\source\\repos\\WebApplication6\\WebApplication6\\Models\\EmployeeModel.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\EmployeeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T11:05:26.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\vishw_ged6020\\source\\repos\\WebApplication6\\WebApplication6\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\vishw_ged6020\\source\\repos\\WebApplication6\\WebApplication6\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "WebApplication6\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T10:19:57.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vishw_ged6020\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication6\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vishw_ged6020\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "WebApplication6\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T10:12:26.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\vishw_ged6020\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Employee\\Add.cshtml",
+              "RelativeDocumentMoniker": "WebApplication6\\Views\\Employee\\Add.cshtml",
+              "ToolTip": "C:\\Users\\vishw_ged6020\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Employee\\Add.cshtml",
+              "RelativeToolTip": "WebApplication6\\Views\\Employee\\Add.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T10:06:40.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\vishw_ged6020\\source\\repos\\WebApplication6\\WebApplication6\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\vishw_ged6020\\source\\repos\\WebApplication6\\WebApplication6\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "WebApplication6\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwIgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T09:42:23.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestDbConnection.cshtml",
+              "DocumentMoniker": "C:\\Users\\vishw_ged6020\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Login\\TestDbConnection.cshtml",
+              "RelativeDocumentMoniker": "WebApplication6\\Views\\Login\\TestDbConnection.cshtml",
+              "ToolTip": "C:\\Users\\vishw_ged6020\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Login\\TestDbConnection.cshtml",
+              "RelativeToolTip": "WebApplication6\\Views\\Login\\TestDbConnection.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T09:15:36.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebApplication6.csproj",
+              "DocumentMoniker": "C:\\Users\\vishw_ged6020\\source\\repos\\WebApplication6\\WebApplication6\\WebApplication6.csproj",
+              "RelativeDocumentMoniker": "WebApplication6\\WebApplication6.csproj",
+              "ToolTip": "C:\\Users\\vishw_ged6020\\source\\repos\\WebApplication6\\WebApplication6\\WebApplication6.csproj",
+              "RelativeToolTip": "WebApplication6\\WebApplication6.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-06T09:00:47.969Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

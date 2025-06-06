@@ -1,0 +1,299 @@
+﻿@model WebApplication6.Models.EmployeeModel
+
+@{
+    string role = ViewBag.Role as string;
+}
+
+<div style="display: flex; justify-content: flex-start; align-items: center; padding: 10px 20px; background-color: #f4f4f4; border-bottom: 1px solid #ccc;">
+    <span style="margin-right: 15px; font-weight: bold;">@(role == "User" ? "User" : "Admin")</span>
+    <form asp-controller="Login" asp-action="Logout" method="post" style="margin: 0;">
+        <button type="submit" style="padding: 6px 12px; border: none; background-color: #d9534f; color: white; border-radius: 4px; cursor: pointer;">
+            Logout
+        </button>
+    </form>
+</div>
+
+<style>
+    .form-section {
+        width: 100%;
+        max-width: 1100px;
+        margin: auto;
+        font-size: 14px;
+    }
+
+    .form-row {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 10px;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+        .form-group label {
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="date"],
+    input[type="password"],
+    select,
+    textarea {
+        padding: 6px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    textarea {
+        resize: vertical;
+        min-height: 60px;
+    }
+
+    .action-buttons {
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+    }
+</style>
+
+<form asp-action="Add" method="post" class="form-section">
+    <div class="form-row">
+        <div class="form-group">
+            <label for="BranchName">Branch Name *</label>
+            <select name="BranchName" id="BranchName" required asp-for="BranchName">
+                <option value="">Select</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Bangalore">Bangalore</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="Department">Department *</label>
+            <select name="Department" id="Department" required asp-for="Department">
+                <option value="">Select</option>
+                <option value="BE-EEE">BE-EEE</option>
+                <option value="BE-CSE">BE-CSE</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="Area">Area *</label>
+            <select name="Area" id="Area" required asp-for="Area">
+                <option value="">Select</option>
+                <option value="HR">HR</option>
+                <option value="Developer">Developer</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="Email">Email *</label>
+            <input type="email" name="Email" id="Email" maxlength="30" required asp-for="Email" />
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group">
+            <label for="Qualification">Qualification</label>
+            <input type="text" name="Qualification" id="Qualification" maxlength="20" asp-for="Qualification" />
+        </div>
+        <div class="form-group">
+            <label for="EmployeeName">Employee Name *</label>
+            <input type="text" name="EmployeeName" id="EmployeeName" maxlength="20" required asp-for="EmployeeName" />
+        </div>
+        <div class="form-group">
+            <label for="EmployeeCode">Employee Code *</label>
+            <input type="number" name="EmployeeCode" id="EmployeeCode" required asp-for="EmployeeCode" />
+        </div>
+        <div class="form-group">
+            <label for="City">City</label>
+            <input type="text" name="City" id="City" maxlength="20" asp-for="City" />
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group">
+            <label for="Gender">Gender *</label>
+            <select name="Gender" id="Gender" required asp-for="Gender">
+                <option value="">Select</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="Designation">Designation</label>
+            <input type="text" name="Designation" id="Designation" maxlength="20" asp-for="Designation" />
+        </div>
+        <div class="form-group">
+            <label for="MobileNo1">Mobile No 1 *</label>
+            <input type="text"
+                   class="form-control"
+                   name="MobileNo1"
+                   id="MobileNo1"
+                   asp-for="MobileNo1"
+                   maxlength="10"
+                   pattern="\d{10}"
+                   required
+                   placeholder="Enter 10-digit mobile number"
+                   oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+            <span asp-validation-for="MobileNo1" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="DateOfBirth">Date Of Birth</label>
+            <input type="date" name="DateOfBirth" id="DateOfBirth" asp-for="DateOfBirth" />
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group">
+            <label for="State">State</label>
+            <input type="text" name="State" id="State" maxlength="20" asp-for="State" />
+        </div>
+        <div class="form-group">
+            <label for="UserName">User Name</label>
+            <input type="text" name="UserName" id="UserName" maxlength="20" asp-for="UserName" />
+        </div>
+        <div class="form-group">
+            <label for="Role">Role *</label>
+            <select name="Role" id="Role" required asp-for="Role">
+                <option value="">Select</option>
+                <option value="Admin">Admin</option>
+                <option value="User">User</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="MobileNo2">Mobile No 2</label>
+            <input type="number" name="MobileNo2" id="MobileNo2" asp-for="MobileNo2" />
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group">
+            <label for="DateOfJoin">Date Of Join *</label>
+            <input type="date" name="DateOfJoin" id="DateOfJoin" required asp-for="DateOfJoin"  />
+        </div>
+        <div class="form-group">
+            <label for="Pincode">Pincode</label>
+            <input type="number" name="Pincode" id="Pincode" asp-for="Pincode" />
+        </div>
+        <div class="form-group">
+            <label for="Password">Password</label>
+            <input type="password" name="Password" id="Password" maxlength="10" asp-for="Password" />
+        </div>
+        <div class="form-group">
+            <label for="Status">Status *</label>
+            <select name="Status" id="Status" required asp-for="Status">
+                <option value="">Select</option>
+                <option value="Active">Active</option>
+                <option value="Deactive">Deactive</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group" style="flex: 1;">
+            <label for="PresentAddress">Present Address *</label>
+            <textarea name="PresentAddress" id="PresentAddress" maxlength="100" required asp-for="PresentAddress"></textarea>
+        </div>
+
+        <div class="form-group" style="flex: 1;">
+            <label for="PermanentAddress">Permanent Address</label>
+            <textarea name="PermanentAddress" id="PermanentAddress" maxlength="100" asp-for="PermanentAddress"></textarea>
+
+            <div style="margin-top: 8px;">
+                <input type="checkbox" id="SameAsPresent" onchange="copyPresentAddress(this)">
+                <label for="SameAsPresent">Same as Present Address</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="action-buttons">
+        <input type="submit" value="Save" />
+        <input type="button" value="Clear" onclick="clearForm()" />
+    </div>
+</form>
+
+<script>
+    function clearForm() {
+        document.querySelector("form").reset();
+    }
+    function copyPresentAddress(checkbox) {
+        const present = document.getElementById("PresentAddress");
+        const permanent = document.getElementById("PermanentAddress");
+
+        if (checkbox.checked) {
+            permanent.value = present.value;
+            permanent.readOnly = true;
+        } else {
+            permanent.value = "";
+            permanent.readOnly = false;
+        }
+    }
+</script>
+
+@if (ViewBag.EmployeeList != null)
+{
+    <style>
+        table {
+            font-size: 12px;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+    </style>
+    <h3>Employee List</h3>
+    <table border="1">
+        <tr>
+            <th>Branch Name</th>
+            <th>Employee name</th>
+            <th>Mobile Number 1</th>
+            <th>Department Name</th>
+            <th>Employee Code</th>
+            <th>Date of join</th>
+            <th>Email</th>
+            <th>Gender</th>
+            <th>Role</th>
+            <th>Status</th>
+            @if (role == "Admin") // Use the 'role' variable defined at the top
+            {
+                <th></th>
+                <th></th>
+            }
+        </tr>
+        @foreach (var emp in (List<WebApplication6.Models.EmployeeModel>)ViewBag.EmployeeList)
+        {
+            <tr>
+                <td>@emp.BranchName</td>
+                <td>@emp.EmployeeName</td>
+                <td>@emp.MobileNo1</td>
+                <td>@emp.Department</td>
+                <td>@emp.EmployeeCode</td>
+                <td>@emp.DateOfJoin.ToString("yyyy-MM-dd")</td>
+                <td>@emp.Email</td>
+                <td>@emp.Gender</td>
+                <td>@emp.Role</td>
+                <td>@emp.Status</td>
+                @if (role == "Admin")
+                {
+                    <th>
+                        <a href="@Url.Action("Edit", "Employee", new { id = emp.EmployeeCode })">Edit</a>
+                    </th>
+                    <th>
+                        <form asp-action="Delete" method="post" style="display:inline;">
+                            <input type="hidden" name="id" value="@emp.EmployeeCode" />
+                            <input type="submit" value="Delete" onclick="return confirm('Are you sure to delete?');" />
+                        </form>
+                    </th>
+                }
+            </tr>
+        }
+    </table>
+}

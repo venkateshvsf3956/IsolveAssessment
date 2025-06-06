@@ -1,0 +1,16 @@
+﻿@model WebApplication6.Models.UserModel
+
+<form asp-action="Index" method="post" style="width: 300px; margin: 100px auto; font-family: Arial;">
+    <h2 style="text-align:center;">Login</h2>
+    <div>
+        <label asp-for="Username"></label><br />
+        <input asp-for="Username" style="width: 100%; padding: 5px;" required/>
+    </div>
+    <div style="margin-top: 10px;">
+        <label asp-for="Password"></label><br />
+        <input asp-for="Password" type="password" style="width: 100%; padding: 5px;" required />
+    </div>
+    <div style="margin-top: 15px;">
+        <button type="submit" style="width: 100%; padding: 8px; background-color: #007BFF; color: white; border: none;">Login</button>
+    </div>
+</form>
