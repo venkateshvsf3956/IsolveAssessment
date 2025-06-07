@@ -219,7 +219,7 @@
 
 <script>
     function clearForm() {
-        document.querySelector("form").reset();
+        document.querySelectorAll("form")[1].reset();
     }
     function copyPresentAddress(checkbox) {
         const present = document.getElementById("PresentAddress");
